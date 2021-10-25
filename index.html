@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Virtual Keyboard</title>
+</head>
+<body>
+  <div class="keyboard-container">
+    <div class="num-row row">
+      <div class="key 1-key">1</div>
+      <div class="key 2-key">2</div>
+      <div class="key 3-key">3</div>
+      <div class="key 4-key">4</div>
+      <div class="key 5-key">5</div>
+      <div class="key 6-key">6</div>
+      <div class="key 7-key">7</div>
+      <div class="key 8-key">8</div>
+      <div class="key 9-key">9</div>
+      <div class="key 0-key">0</div>
+      <div class="key backspace-key">
+        <svg
+          class='backspace-icon'
+          viewBox="0 0 24 24">
+          <path fill="none" d="M0 0h24v24H0V0z"/>
+          <path d="M22 3H7c-.69 0-1.23.35-1.59.88L.37 11.45c-.22.34-.22.77 0 1.11l5.04 7.56c.36.52.9.88 1.59.88h15c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-3.7 13.3c-.39.39-1.02.39-1.41 0L14 13.41l-2.89 2.89c-.39.39-1.02.39-1.41 0-.39-.39-.39-1.02 0-1.41L12.59 12 9.7 9.11c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0L14 10.59l2.89-2.89c.39-.39 1.02-.39 1.41 0 .39.39.39 1.02 0 1.41L15.41 12l2.89 2.89c.38.38.38 1.02 0 1.41z"/>
+        </svg>
+      </div>
+    </div>
+    <div class="top-row row">
+      <div class="key q-key">Q</div>
+      <div class="key w-key">W</div>
+      <div class="key e-key">E</div>
+      <div class="key r-key">R</div>
+      <div class="key t-key">T</div>
+      <div class="key y-key">Y</div>
+      <div class="key u-key">U</div>
+      <div class="key i-key">I</div>
+      <div class="key o-key">O</div>
+      <div class="key p-key">P</div>
+    </div>
+    <div class="mid-row row">
+      <div class="key a-key">A</div>
+      <div class="key s-key">S</div>
+      <div class="key d-key">D</div>
+      <div class="key f-key">F</div>
+      <div class="key g-key">G</div>
+      <div class="key h-key">H</div>
+      <div class="key j-key">J</div>
+      <div class="key k-key">K</div>
+      <div class="key l-key">L</div>
+      <div class="key enter-key">ENTER</div>
+    </div>
+    <div class="bottom-row row">
+      <div class="key shift-key">SHIFT</div>
+      <div class="key z-key">Z</div>
+      <div class="key x-key">X</div>
+      <div class="key c-key">C</div>
+      <div class="key v-key">V</div>
+      <div class="key b-key">B</div>
+      <div class="key n-key">N</div>
+      <div class="key m-key">M</div>
+      <div class="key comma-key">,</div>
+      <div class="key period-key">.</div>
+    </div>
+    <div class="space-bar-container row">
+      <div class="key space-key">
+        <svg
+          class='space-bar-icon'
+          viewBox="0 0 24 24"
+        >
+          <path d="M21,9a1,1,0,0,0-1,1v3H4V10a1,1,0,0,0-2,0v4a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V10A1,1,0,0,0,21,9Z"/>
+        </svg>
+
+      </div>
+    </div>
+  </div>
+  <script src='main.js'></script>
+</body>
+</html>

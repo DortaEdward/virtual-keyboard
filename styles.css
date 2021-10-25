@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Roboto&display=swap');
+
+*{
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(122, 25, 25);
+}
+
+.keyboard-container{
+  margin:25vh auto;
+}
+
+svg{
+  background-color: rgba(0,0,0,0)
+}
+
+.space-bar-icon{
+  width: 50px;
+  fill: white;
+}
+
+.backspace-icon{
+  fill: white;
+  width: 35px;
+}
+
+
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.key{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:3.5px;
+  width:80px;
+  height:80px;
+  background-color: rgb(207, 71, 71);
+  font-size: 20px;
+  color: white;
+  border-radius: 10px;
+}
+
+.active{
+  background-color: #c85151;
+}
+
+.key:hover{
+  cursor: pointer;
+}
+
+.backspace-key{
+  width:140px;
+}
+
+.caps-key, .enter-key, .shift-key{
+  width:140px;
+}
+
+.space-key{
+  width:600px; 
+}
