@@ -102,10 +102,6 @@ svg{
   background-color: #c85151;
 }
 
-.key:hover{
-  cursor: pointer;
-}
-
 .backspace-key{
   width:140px;
 }
