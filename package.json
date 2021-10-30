@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage":"https://DortaEdward.github.io/virtual-keyboard"
+  "homepage":"https://DortaEdward.github.io/virtual-keyboard",
   "dependencies": {
     "gh-pages": "^3.2.3"
   }
