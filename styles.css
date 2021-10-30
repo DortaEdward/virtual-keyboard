@@ -6,8 +6,62 @@
   background-color: rgb(122, 25, 25);
 }
 
-.keyboard-container{
-  margin:25vh auto;
+body{
+  overflow-y: hidden;
+}
+
+.game{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:2em auto;
+}
+
+.game-container, .timer, .keyboard-container{
+  margin:2vh auto;
+}
+
+.timer{
+  font-size: 80px;
+  color:white;
+}
+
+.game-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:2em;
+  width: 900px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.game-container, .prompt-container{
+  background-color: #c85151;
+}
+
+.prompt-container{
+  font-size: 30px;
+  width:800px;
+  margin:1em;
+}
+
+span{
+  background-color: transparent;
+  color:white;
+}
+
+.user-input{
+  width: 700px;
+  height: 150px;
+  outline:none;
+  resize: none;
+  border:none;
+  background-color: white;
+  border-radius: 10px;
+  font-size:25px;
+  padding:0.6em;
+  overflow-y: none;
 }
 
 svg{
@@ -48,10 +102,6 @@ svg{
   background-color: #c85151;
 }
 
-.key:hover{
-  cursor: pointer;
-}
-
 .backspace-key{
   width:140px;
 }
@@ -62,4 +112,11 @@ svg{
 
 .space-key{
   width:600px; 
+}
+
+.correct{
+  color:green;
+}
+.incorrect{
+  color:red;
 }
