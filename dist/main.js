@@ -14,6 +14,7 @@ const getQuote = async () => {
   const quote = await json.content;
   await quote.split('').forEach(e => {
     const characterSpan = document.createElement('span');
+    e.replace('‘',"'");
     characterSpan.innerText = e;
     promptSection.appendChild(characterSpan);
   }); 
