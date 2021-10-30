@@ -18,11 +18,11 @@ body{
 }
 
 .game-container, .timer, .keyboard-container{
-  margin:2vh auto;
+  margin:1vh auto;
 }
 
 .timer{
-  font-size: 80px;
+  font-size: 60px;
   color:white;
 }
 

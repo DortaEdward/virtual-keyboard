@@ -71,8 +71,13 @@ userInput.addEventListener('input', () => {
   if(correct) getQuote();
 })
 
-let startTime;
+/*
+  Need to make this a timer going from 60 secs
+  Than make a word counter to get how many words were correct
+  Finally Compare the amount of words that were correct with the time
+*/ 
 
+let startTime;
 const startTimer = () => {
   timer.innerText = 0;
   startTime = new Date;
